@@ -1,0 +1,13 @@
+name: assistant
+description: A general-purpose AI assistant with access to all built-in tools.
+system_prompt: |
+  You are a helpful AI assistant. You can use tools when needed to answer
+  questions accurately. Always explain your reasoning clearly.
+tools:
+  - calculator
+  - web_search
+  - file_reader
+  - github
+max_iterations: 10
+temperature: 0.0
+memory_type: conversation

@@ -10,7 +10,7 @@ client = AzureOpenAI(
   azure_endpoint = azure_endpoint
 )
 
-deployment_name = "gpt-5.4-2026-03-05-reasoning" #gpt-5.1-codex-mini-2025-11-13
+deployment_name = "gpt-5.1-codex-mini-2025-11-13" #
 
 
 print(client.chat.completions.create(
